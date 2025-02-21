@@ -1,0 +1,16 @@
+.container {
+    height: 980px;
+    width: 980px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.cell:hover {
+    background-color: black;
+}
