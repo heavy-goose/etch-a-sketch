@@ -1,4 +1,6 @@
+// Defaut grid size on first visit
 let gridSize = 30;
+
 let rainbowMode = false;
 let eraserMode = false;
 
@@ -7,8 +9,6 @@ const clearButton = document.querySelector("#clear-btn");
 const sizeButton = document.querySelector("#size-select-btn");
 const rainbowButton = document.querySelector("#rainbow-mode");
 const eraserButton = document.querySelector("#eraser-mode");
-
-
 
 function createGrid (num) {
     let totalNumOfCells = num ** 2;
