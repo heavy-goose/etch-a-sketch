@@ -12,7 +12,7 @@ const eraserButton = document.querySelector("#eraser-mode");
 
 function createGrid (num) {
     let totalNumOfCells = num ** 2;
-    let cellWidth = 840 / num;
+    let cellWidth = 630 / num;
     for (let i = 0; i < totalNumOfCells; i++) {
         let cell = document.createElement("div");
         cell.classList.add("cell");
